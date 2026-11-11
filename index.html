@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#D1E8FC"><meta name="description" content="19.11 — Một trái tim chung từ 36 lớp Chuyên Hạ Long.">
+<title>19.11 — Chuyên Hạ Long</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="cosmos" aria-hidden="true"><div class="nebula n1"></div><div class="nebula n2"></div><div class="starfield" id="stars"></div><div class="circuit circuit-a"></div><div class="circuit circuit-b"></div><div class="sky-orbit orbit-one"></div><div class="sky-orbit orbit-two"></div></div>
+<header class="topbar" id="home"><a class="brand" href="#home"><span class="brand-mark">19</span><span><b>CHUYÊN HẠ LONG</b><small>19 · 11 · 2026</small></span></a><a class="top-link" href="#heartArchive">Vườn trái tim <span>↘</span></a></header>
+<main>
+<section class="intro wrap" id="film">
+  <div class="intro-copy"><p class="eyebrow"><i></i> A SHARED MEMORY · 19.11.2026</p><h1>Một thước phim.<br><em>Một thời thanh xuân.</em></h1><p class="lead">Lời nhắn gửi từ đại gia đình Chuyên Hạ Long.</p></div>
+  <div class="film-layout">
+    <div class="film-card"><div class="film-stage" id="memoryStage"><div class="film-placeholder" id="memoryEmpty"><span class="play-mark">▶</span><b>Thước phim sẽ bắt đầu tại đây</b><small>Một video duy nhất · Chuyên Hạ Long 19.11</small></div><video id="memoryPlayer" controls playsinline preload="metadata" hidden></video><span class="film-label">19.11 <i>·</i> CHUYÊN HẠ LONG</span></div><div class="film-caption"><span><b id="mediaName">THƯỚC PHIM 19/11</b><small id="mediaMeta">Video sẽ được cập nhật sau.</small></span><span class="film-index">01 / 01</span></div></div>
+    <aside class="film-invite" id="filmInvite"><span class="invite-orbit" aria-hidden="true">✦</span><p class="eyebrow">AFTER THE FILM</p><h2>Còn một điều<br><em>muốn gửi cậu.</em></h2><p class="invite-copy">Những lời nhắn nhỏ đang đợi được mở. Chạm xuống khu vườn và chọn một trái tim nhé.</p><a class="explore-call" href="#heartArchive"><span class="call-icon">♡</span><span><b>Đi đến khu vườn thư</b><small>36 lớp · 36 lời nhắn</small></span><span class="call-arrow">↓</span></a><span class="invite-foot">A LITTLE SURPRISE IS WAITING</span></aside>
+  </div>
+  <a class="explore-call explore-mobile" href="#heartArchive"><span class="call-icon">♡</span><span><b>Đi xuống khu vườn thư</b><small>Chạm để khám phá 36 lời nhắn</small></span><span class="call-arrow">↓</span></a>
+</section>
+<section class="garden wrap" id="heartArchive">
+  <div class="garden-head"><p class="eyebrow">THE HEART GARDEN · 02</p><h2>Chạm vào một <em>lời nhắn.</em></h2><p class="garden-sub">Mỗi tập thể là một trái tim. Chọn lớp để mở lời chúc dành riêng cho mình.</p></div>
+  <div class="grade-switch" role="group" aria-label="Lọc theo khối"><button class="grade-tab active" data-grade="all" aria-pressed="true">Tất cả <small>36</small></button><button class="grade-tab" data-grade="10" aria-pressed="false">Khối 10 <small>12</small></button><button class="grade-tab" data-grade="11" aria-pressed="false">Khối 11 <small>12</small></button><button class="grade-tab" data-grade="12" aria-pressed="false">Khối 12 <small>12</small></button></div>
+  <div class="tools-row"><label class="search-box"><span>⌕</span><input id="heartSearch" type="search" placeholder="Tìm lớp, ví dụ: 10 Toán..." autocomplete="off" aria-label="Tìm lớp"><button id="clearSearch" type="button" aria-label="Xóa tìm kiếm" hidden>×</button></label><button class="random-button" id="randomLetter" type="button"><span>✧</span> Mở ngẫu nhiên</button></div>
+  <div class="grade-intro" id="gradeIntro"><span class="grade-dot all-dot"></span><span><b>36 trái tim</b><small>Ba khối · Một vườn lời chúc</small></span><span class="result-count" id="resultCount">36 lớp</span></div>
+  <div class="heart-grid" id="heartCanvas" aria-label="36 lớp tương tác"></div>
+  <p class="search-empty" id="searchEmpty" hidden>Không tìm thấy lớp phù hợp. Thử một từ khóa khác nhé.</p>
+  <div class="garden-bottom"><span>36 CLASS COMMUNITIES</span><span>MADE TO BE REMEMBERED ✦</span></div>
+</section>
+</main>
+<footer class="footer"><span class="brand-mark">19</span><span><b>CHUYÊN HẠ LONG</b><small>36 LỚP · MỘT TRÁI TIM</small></span></footer>
+<nav class="mobile-dock" aria-label="Điều hướng nhanh"><a href="#home"><span>⌂</span>Trang chủ</a><a href="#film"><span>▶</span>Thước phim</a><a href="#heartArchive"><span>♡</span>Vườn thư</a></nav>
+<dialog class="letter-dialog" id="letterDialog" aria-labelledby="dialogTitle">
+  <div class="dialog-top"><span class="dialog-chip" id="dialogGrade">KHỐI 10</span><button class="dialog-close" id="closeDialog" type="button" aria-label="Đóng thư">×</button></div>
+  <div class="letter-content"><div class="letter-emblem" aria-hidden="true"><span>✉</span></div><p class="letter-kicker">A LETTER FOR YOU</p><h2 id="dialogTitle">10 Toán</h2><div class="letter-rule"><i></i></div><p class="letter-body" id="dialogCopy" aria-live="polite"></p><span class="letter-date">19 · 11 · 2026 &nbsp; / &nbsp; CHUYÊN HẠ LONG</span>
+  <section class="letter-feedback" aria-label="Phản hồi về lá thư"><h3>Bạn cảm thấy lá thư thế nào, phản hồi cho chúng mình nhaaa</h3><div class="feedback-options"><button type="button" data-feedback="Dễ thương xỉuu" aria-pressed="false"><span aria-hidden="true">♡</span><b>Dễ thương xỉuu</b></button><button type="button" data-feedback="Cảm ơn các bạn nữ nhiều nhaa" aria-pressed="false"><span aria-hidden="true">✦</span><b>Cảm ơn các bạn nữ nhiều nhaa</b></button><button type="button" data-feedback="Được quan tâm thế này thích ghê" aria-pressed="false"><span aria-hidden="true">☀</span><b>Được quan tâm thế này thích ghê</b></button></div><small class="feedback-thanks" id="feedbackThanks" aria-live="polite"></small></section>
+  </div>
+</dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="data.js"></script><script src="app.js"></script>
+</body></html>

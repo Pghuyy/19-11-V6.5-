@@ -1,0 +1,19 @@
+V6.4 — FEEDBACK REFRESH
+
+- Đổi câu hỏi phản hồi sang giọng tự nhiên, thân thiện hơn.
+- Ba lựa chọn mới:
+  1. Dễ thương xỉu!
+  2. Tự nhiên thấy vui ngang
+  3. Muốn gửi lời này cho cả lớp
+- Nâng cấp vùng bấm, trạng thái hover/active/selected và focus bàn phím.
+- Thêm phản hồi sau khi chọn với nội dung riêng theo từng lựa chọn.
+- Reset trạng thái phản hồi khi mở một lá thư mới để không lưu nhầm cảm nhận của thư trước.
+- Không thêm backend và không tuyên bố dữ liệu phản hồi đã được lưu trên máy chủ.
+- Giữ nguyên dữ liệu và nội dung của 36 lá thư.
+
+
+V6.5 — HEART REACTIONS & MOTION
+- Đổi đúng câu hỏi và ba phản hồi theo yêu cầu.
+- Căn biểu tượng và nội dung theo chiều dọc trên desktop; trên điện thoại chuyển thành hàng ngang dễ bấm.
+- Làm chuyển động trái tim chậm, êm hơn; giữ nguyên hình dáng và bố cục khu vườn.
+- Giữ nguyên dữ liệu 36 lớp và toàn bộ nội dung thư.
